@@ -10,7 +10,7 @@ The site will be available at https://adam-duan.github.io/UserStudy/ after deplo
 
 ## Collecting responses
 
-Completed responses are submitted automatically to the HTTPS collector configured in `config.json`. The page shows success only after the server confirms storage. A failed submission can be retried, and JSON export remains available as a backup. Responses and method mappings are never published in this repository.
+Selecting the final missing rating automatically submits all 45 answers to the HTTPS collector configured in `config.json`; no final submit click is required. Incomplete questionnaires are not submitted. The page shows success only after the server confirms storage. A failed submission can be retried, and JSON export remains available as a backup. Responses and method mappings are never published in this repository.
 
 Previously completed participants can reopen this URL in the same browser to submit their saved answers. Questionnaire IDs and browser storage keys have not changed.
 

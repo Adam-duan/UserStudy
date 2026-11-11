@@ -84,6 +84,7 @@ function render() {
  document.querySelectorAll('input[type=radio]').forEach(r=>r.addEventListener('change',()=>{
   state.ratings[c.id]??={}; state.ratings[c.id][r.dataset.id]=r.value==='uncertain'?'uncertain':Number(r.value);
   state.revision++; state.finished=false; state.finished_at=null; recordTime(); save();
+  if(allComplete()) finish();
  }));
  videoNodes().forEach(v=>v.addEventListener('error',()=>{$('error').textContent='视频加载失败，请刷新重试。已有评分会保留。';}));
 }
@@ -144,5 +145,5 @@ setInterval(()=>{
 },150);
 document.addEventListener('visibilitychange',()=>{recordTime();stop();wasVisible=document.visibilityState==='visible';enteredAt=performance.now();save();});
 window.addEventListener('pagehide',()=>{recordTime();save();});
-render();save();if(state.finished && allComplete()) finish();
+render();save();if(allComplete()) finish();
 })().catch(error=>{document.getElementById('error').textContent=error.message;document.getElementById('next').disabled=true;});
