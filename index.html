@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>视频评估</title><link rel="stylesheet" href="study.css"></head><body><main>
+<noscript>请启用 JavaScript 以播放视频和填写评分。</noscript>
+<header><h1>视频评估</h1><div class="bar"><span id="progress"></span><button id="export">导出我的评分</button></div></header>
+<section id="survey">
+<div class="bar navigation"><button id="prev">上一组</button><select id="jump" aria-label="选择场景"></select><button id="next">下一组</button></div>
+<div id="target"></div><details id="commands"><summary>查看完整控制时间线</summary><div id="timeline"></div></details>
+<div class="bar"><button class="primary" id="play">一起播放</button><button id="pause">暂停</button><button id="restart">一起重播</button><input id="scrub" type="range" min="0" max="80" value="0" aria-label="同步帧位置"><span id="frame">帧 0 / 80</span></div>
+<section id="keyboardGuide" hidden aria-label="背景控制按键示意">
+<div class="keyboard-layout">
+<div class="key-group"><div class="key-grid" aria-label="移动按键">
+<kbd class="keycap" data-axis="0" data-value="1" title="W：前进">W</kbd><kbd class="keycap" data-axis="1" data-value="1" title="A：左移">A</kbd><kbd class="keycap" data-axis="0" data-value="2" title="S：后退">S</kbd><kbd class="keycap" data-axis="1" data-value="2" title="D：右移">D</kbd>
+</div><div class="key-legend"><strong>移动</strong>W 前进 · S 后退<br>A 左移 · D 右移</div></div>
+<div class="key-group"><div class="key-grid" aria-label="转向按键">
+<kbd class="keycap" data-axis="2" data-value="1" title="↑：抬头">↑</kbd><kbd class="keycap" data-axis="3" data-value="1" title="←：左转">←</kbd><kbd class="keycap" data-axis="2" data-value="2" title="↓：低头">↓</kbd><kbd class="keycap" data-axis="3" data-value="2" title="→：右转">→</kbd>
+</div><div class="key-legend"><strong>转向</strong>↑ 抬头 · ↓ 低头<br>← 左转 · → 右转</div></div>
+<div class="current-control"><span class="muted">当前指令</span><strong id="currentControl"></strong><span id="controlRange" class="muted"></span></div>
+</div><p class="keyboard-hint">三段视频共用同一套指令与播放进度。蓝色 = 当前要求的按键；多个亮起表示同时执行。</p>
+</section>
+<div id="reference" style="max-width:560px;margin-bottom:16px"></div>
+<div class="grid" id="cards"></div>
+<div id="status" role="status"></div><div id="error" role="alert"></div>
+<section id="rubric" aria-labelledby="rubricTitle">
+<h2 id="rubricTitle">评分标准</h2>
+<ol class="score-levels">
+<li><strong>1 分</strong>基本未执行</li>
+<li><strong>2 分</strong>只完成少量，或有重大方向／顺序错误</li>
+<li><strong>3 分</strong>部分完成，但缺少关键行为</li>
+<li><strong>4 分</strong>大部分完成，仅轻微遗漏</li>
+<li><strong>5 分</strong>要求的行为均清楚、按顺序完成</li>
+</ol>
+</section>
+<footer><span class="muted">评分自动保存在当前浏览器；导出 JSON 可另行备份。</span><span id="counter"></span></footer>
+</section>
+<section id="done" hidden><h2>评分已完成</h2><p id="submitStatus" role="status"></p><div class="bar"><button id="retry" class="primary">重试提交</button><button id="review">返回检查</button></div></section>
+</main><script src="study.js" defer></script></body></html>

@@ -1,0 +1,1115 @@
+{
+  "schema": "instruction-study-v1",
+  "version": "fdf1638cd5bd06b6b0ecbedb059fc432a0b7981ebe7505d5ffde78ce6eca1260",
+  "cases": [
+    {
+      "id": "ce59677f45389ffbe",
+      "kind": "bg",
+      "target": "按下方高亮按键执行相机运动。",
+      "videos": [
+        {
+          "id": "v007162fa47f1e4769087",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v007162fa47f1e4769087.mp4",
+          "webm": "media/v007162fa47f1e4769087.webm"
+        },
+        {
+          "id": "vc24dd6806b10d9f08b27",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vc24dd6806b10d9f08b27.mp4",
+          "webm": "media/vc24dd6806b10d9f08b27.webm"
+        },
+        {
+          "id": "vdb816b712b40ad40cb34",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vdb816b712b40ad40cb34.mp4",
+          "webm": "media/vdb816b712b40ad40cb34.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 0,
+          "end": 5,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "control": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "label": "前进＋右转"
+        },
+        {
+          "start": 16,
+          "end": 24,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "control": [
+            1,
+            0,
+            2,
+            0
+          ],
+          "label": "前进＋低头"
+        },
+        {
+          "start": 29,
+          "end": 45,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "control": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "label": "前进＋抬头"
+        },
+        {
+          "start": 52,
+          "end": 61,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 62,
+          "end": 68,
+          "control": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "label": "前进＋右转"
+        },
+        {
+          "start": 69,
+          "end": 78,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        },
+        {
+          "start": 79,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        }
+      ],
+      "balance_order": [
+        "vc24dd6806b10d9f08b27",
+        "vdb816b712b40ad40cb34",
+        "v007162fa47f1e4769087"
+      ]
+    },
+    {
+      "id": "c94e0594f85a0050c",
+      "kind": "bg",
+      "target": "按下方高亮按键执行相机运动。",
+      "videos": [
+        {
+          "id": "v09076b5173b02cc5933b",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v09076b5173b02cc5933b.mp4",
+          "webm": "media/v09076b5173b02cc5933b.webm"
+        },
+        {
+          "id": "v378b1ca759ce369357e7",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v378b1ca759ce369357e7.mp4",
+          "webm": "media/v378b1ca759ce369357e7.webm"
+        },
+        {
+          "id": "vea50db66294601ee9072",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vea50db66294601ee9072.mp4",
+          "webm": "media/vea50db66294601ee9072.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 0,
+          "end": 34,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "control": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "label": "前进＋左转"
+        },
+        {
+          "start": 37,
+          "end": 68,
+          "control": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "label": "左转"
+        },
+        {
+          "start": 69,
+          "end": 80,
+          "control": [
+            0,
+            2,
+            0,
+            0
+          ],
+          "label": "右移"
+        }
+      ],
+      "balance_order": [
+        "v09076b5173b02cc5933b",
+        "v378b1ca759ce369357e7",
+        "vea50db66294601ee9072"
+      ]
+    },
+    {
+      "id": "cc9a0ef8f5a58bdf6",
+      "kind": "bg",
+      "target": "按下方高亮按键执行相机运动。",
+      "videos": [
+        {
+          "id": "v54290bd24a33a95487eb",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v54290bd24a33a95487eb.mp4",
+          "webm": "media/v54290bd24a33a95487eb.webm"
+        },
+        {
+          "id": "vaab0e5f0b1d2a263e370",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vaab0e5f0b1d2a263e370.mp4",
+          "webm": "media/vaab0e5f0b1d2a263e370.webm"
+        },
+        {
+          "id": "ve85ec21fff9e7d830d42",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/ve85ec21fff9e7d830d42.mp4",
+          "webm": "media/ve85ec21fff9e7d830d42.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 0,
+          "end": 7,
+          "control": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "label": "前进＋右转"
+        },
+        {
+          "start": 8,
+          "end": 16,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 17,
+          "end": 37,
+          "control": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "label": "前进＋左转"
+        },
+        {
+          "start": 38,
+          "end": 50,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 51,
+          "end": 69,
+          "control": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "label": "前进＋左转"
+        },
+        {
+          "start": 70,
+          "end": 80,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        }
+      ],
+      "balance_order": [
+        "v54290bd24a33a95487eb",
+        "ve85ec21fff9e7d830d42",
+        "vaab0e5f0b1d2a263e370"
+      ]
+    },
+    {
+      "id": "c6e4adc9a660fc291",
+      "kind": "bg",
+      "target": "按下方高亮按键执行相机运动。",
+      "videos": [
+        {
+          "id": "v121020e26edd2b044ce5",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v121020e26edd2b044ce5.mp4",
+          "webm": "media/v121020e26edd2b044ce5.webm"
+        },
+        {
+          "id": "v66189b69fb8c5ed093e7",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v66189b69fb8c5ed093e7.mp4",
+          "webm": "media/v66189b69fb8c5ed093e7.webm"
+        },
+        {
+          "id": "vc81773fd559bfb0f35ec",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vc81773fd559bfb0f35ec.mp4",
+          "webm": "media/vc81773fd559bfb0f35ec.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 0,
+          "end": 27,
+          "control": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "label": "左转"
+        },
+        {
+          "start": 28,
+          "end": 30,
+          "control": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "label": "前进＋左转"
+        },
+        {
+          "start": 31,
+          "end": 45,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 46,
+          "end": 51,
+          "control": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "label": "前进＋左移＋右转"
+        },
+        {
+          "start": 52,
+          "end": 58,
+          "control": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "label": "前进＋左移"
+        },
+        {
+          "start": 59,
+          "end": 70,
+          "control": [
+            1,
+            1,
+            0,
+            2
+          ],
+          "label": "前进＋左移＋右转"
+        },
+        {
+          "start": 71,
+          "end": 72,
+          "control": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "label": "左移＋右转"
+        },
+        {
+          "start": 73,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        }
+      ],
+      "balance_order": [
+        "v121020e26edd2b044ce5",
+        "vc81773fd559bfb0f35ec",
+        "v66189b69fb8c5ed093e7"
+      ]
+    },
+    {
+      "id": "cb887bfe9122364c5",
+      "kind": "bg",
+      "target": "按下方高亮按键执行相机运动。",
+      "videos": [
+        {
+          "id": "v77f0064cc77d34604017",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/v77f0064cc77d34604017.mp4",
+          "webm": "media/v77f0064cc77d34604017.webm"
+        },
+        {
+          "id": "vaedc9f7ebc25b574f414",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vaedc9f7ebc25b574f414.mp4",
+          "webm": "media/vaedc9f7ebc25b574f414.webm"
+        },
+        {
+          "id": "vc739dcbb262bc2556d37",
+          "fps": 24.0,
+          "frames": 81,
+          "url": "media/vc739dcbb262bc2556d37.mp4",
+          "webm": "media/vc739dcbb262bc2556d37.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 0,
+          "end": 10,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 11,
+          "end": 15,
+          "control": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "label": "前进＋左转"
+        },
+        {
+          "start": 16,
+          "end": 26,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 27,
+          "end": 31,
+          "control": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "label": "前进＋左转"
+        },
+        {
+          "start": 32,
+          "end": 50,
+          "control": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "label": "前进"
+        },
+        {
+          "start": 51,
+          "end": 53,
+          "control": [
+            1,
+            0,
+            0,
+            2
+          ],
+          "label": "前进＋右转"
+        },
+        {
+          "start": 54,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        }
+      ],
+      "balance_order": [
+        "vaedc9f7ebc25b574f414",
+        "vc739dcbb262bc2556d37",
+        "v77f0064cc77d34604017"
+      ]
+    },
+    {
+      "id": "c939d7f954d3e17a0",
+      "kind": "fg",
+      "target": "搬移 → 放下 → 其他动作",
+      "videos": [
+        {
+          "id": "v13a8e4a01869b1fa264f",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v13a8e4a01869b1fa264f.mp4",
+          "webm": "media/v13a8e4a01869b1fa264f.webm"
+        },
+        {
+          "id": "v223995614a8044780644",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v223995614a8044780644.mp4",
+          "webm": "media/v223995614a8044780644.webm"
+        },
+        {
+          "id": "vd4f4fa5611307c1d31c2",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vd4f4fa5611307c1d31c2.mp4",
+          "webm": "media/vd4f4fa5611307c1d31c2.webm"
+        }
+      ],
+      "balance_order": [
+        "vd4f4fa5611307c1d31c2",
+        "v13a8e4a01869b1fa264f",
+        "v223995614a8044780644"
+      ]
+    },
+    {
+      "id": "c58b970bacd47cb66",
+      "kind": "fg",
+      "target": "伸手 → 抓住 → 拿起 → 搬移 → 放下 → 其他动作",
+      "videos": [
+        {
+          "id": "v7a8057c52844d6e9069c",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v7a8057c52844d6e9069c.mp4",
+          "webm": "media/v7a8057c52844d6e9069c.webm"
+        },
+        {
+          "id": "v88c899ddad401a47c1eb",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v88c899ddad401a47c1eb.mp4",
+          "webm": "media/v88c899ddad401a47c1eb.webm"
+        },
+        {
+          "id": "vf60c9f0a398f4414ba4d",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vf60c9f0a398f4414ba4d.mp4",
+          "webm": "media/vf60c9f0a398f4414ba4d.webm"
+        }
+      ],
+      "balance_order": [
+        "v7a8057c52844d6e9069c",
+        "v88c899ddad401a47c1eb",
+        "vf60c9f0a398f4414ba4d"
+      ]
+    },
+    {
+      "id": "ca9b5a792b6d2a52e",
+      "kind": "fg",
+      "target": "打开 → 关闭 → 其他动作",
+      "videos": [
+        {
+          "id": "v218a0129f26c03c49e22",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v218a0129f26c03c49e22.mp4",
+          "webm": "media/v218a0129f26c03c49e22.webm"
+        },
+        {
+          "id": "v72cd17df9ea7ec05550d",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v72cd17df9ea7ec05550d.mp4",
+          "webm": "media/v72cd17df9ea7ec05550d.webm"
+        },
+        {
+          "id": "vd8a593baa29c96cda99d",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vd8a593baa29c96cda99d.mp4",
+          "webm": "media/vd8a593baa29c96cda99d.webm"
+        }
+      ],
+      "balance_order": [
+        "v72cd17df9ea7ec05550d",
+        "vd8a593baa29c96cda99d",
+        "v218a0129f26c03c49e22"
+      ]
+    },
+    {
+      "id": "cbe68fb27242d95ff",
+      "kind": "fg",
+      "target": "搬移 → 放下 → 伸手 → 其他动作 → 按压 → 其他动作",
+      "videos": [
+        {
+          "id": "va4c2a48514ed025ede82",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/va4c2a48514ed025ede82.mp4",
+          "webm": "media/va4c2a48514ed025ede82.webm"
+        },
+        {
+          "id": "vda44e4146c3c132fc63d",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vda44e4146c3c132fc63d.mp4",
+          "webm": "media/vda44e4146c3c132fc63d.webm"
+        },
+        {
+          "id": "vf8141326de9c3e195341",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vf8141326de9c3e195341.mp4",
+          "webm": "media/vf8141326de9c3e195341.webm"
+        }
+      ],
+      "balance_order": [
+        "vda44e4146c3c132fc63d",
+        "va4c2a48514ed025ede82",
+        "vf8141326de9c3e195341"
+      ]
+    },
+    {
+      "id": "cb7dfe1de7b3665ac",
+      "kind": "fg",
+      "target": "其他动作 → 伸手 → 抓住 → 打开 → 关闭",
+      "videos": [
+        {
+          "id": "v7f052c5c94dd2c1e7e8c",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v7f052c5c94dd2c1e7e8c.mp4",
+          "webm": "media/v7f052c5c94dd2c1e7e8c.webm"
+        },
+        {
+          "id": "v875dfabbbf11c6fdc2c8",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v875dfabbbf11c6fdc2c8.mp4",
+          "webm": "media/v875dfabbbf11c6fdc2c8.webm"
+        },
+        {
+          "id": "vef4077cb0d4ec7b8b47c",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vef4077cb0d4ec7b8b47c.mp4",
+          "webm": "media/vef4077cb0d4ec7b8b47c.webm"
+        }
+      ],
+      "balance_order": [
+        "v875dfabbbf11c6fdc2c8",
+        "v7f052c5c94dd2c1e7e8c",
+        "vef4077cb0d4ec7b8b47c"
+      ]
+    },
+    {
+      "id": "caccbcc4fa463c574",
+      "kind": "mixed",
+      "target": "伸手 → 抓住 → 拿起 → 左转 → 放下 → 反向转向",
+      "videos": [
+        {
+          "id": "v11a7b2c1d43c9780e787",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v11a7b2c1d43c9780e787.mp4",
+          "webm": "media/v11a7b2c1d43c9780e787.webm"
+        },
+        {
+          "id": "v6b29d9b21aa8eddd100b",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v6b29d9b21aa8eddd100b.mp4",
+          "webm": "media/v6b29d9b21aa8eddd100b.webm"
+        },
+        {
+          "id": "v9994ca5f2aac0b283e1d",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v9994ca5f2aac0b283e1d.mp4",
+          "webm": "media/v9994ca5f2aac0b283e1d.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 1,
+          "end": 38,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 39,
+          "end": 58,
+          "control": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "label": "左转"
+        },
+        {
+          "start": 59,
+          "end": 74,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 75,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        }
+      ],
+      "balance_order": [
+        "v6b29d9b21aa8eddd100b",
+        "v9994ca5f2aac0b283e1d",
+        "v11a7b2c1d43c9780e787"
+      ]
+    },
+    {
+      "id": "c7778e930f02ddd58",
+      "kind": "mixed",
+      "target": "拿起水桶后向右转视角，然后倾倒。",
+      "videos": [
+        {
+          "id": "v9f81a5de453be18540bc",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v9f81a5de453be18540bc.mp4",
+          "webm": "media/v9f81a5de453be18540bc.webm"
+        },
+        {
+          "id": "vcb521df7b168ecc93bab",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vcb521df7b168ecc93bab.mp4",
+          "webm": "media/vcb521df7b168ecc93bab.webm"
+        },
+        {
+          "id": "vcf82e26d3c1703f066ac",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vcf82e26d3c1703f066ac.mp4",
+          "webm": "media/vcf82e26d3c1703f066ac.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 1,
+          "end": 24,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 25,
+          "end": 37,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        },
+        {
+          "start": 38,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        }
+      ],
+      "balance_order": [
+        "vcb521df7b168ecc93bab",
+        "v9f81a5de453be18540bc",
+        "vcf82e26d3c1703f066ac"
+      ]
+    },
+    {
+      "id": "cfc9bdd351436dc5d",
+      "kind": "mixed",
+      "target": "伸手 → 抓住 → 拿起 → 搬移并右转 → 放下 → 左转回看",
+      "videos": [
+        {
+          "id": "v21d620e4ca4272e9958a",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v21d620e4ca4272e9958a.mp4",
+          "webm": "media/v21d620e4ca4272e9958a.webm"
+        },
+        {
+          "id": "vc03769ad6d80f807021e",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vc03769ad6d80f807021e.mp4",
+          "webm": "media/vc03769ad6d80f807021e.webm"
+        },
+        {
+          "id": "vd7a70cf4c0122a4b152c",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vd7a70cf4c0122a4b152c.mp4",
+          "webm": "media/vd7a70cf4c0122a4b152c.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 1,
+          "end": 32,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 33,
+          "end": 40,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        },
+        {
+          "start": 41,
+          "end": 72,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 73,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "label": "左转"
+        }
+      ],
+      "balance_order": [
+        "vd7a70cf4c0122a4b152c",
+        "vc03769ad6d80f807021e",
+        "v21d620e4ca4272e9958a"
+      ]
+    },
+    {
+      "id": "c145a3fda2c57efad",
+      "kind": "mixed",
+      "target": "伸手 → 抓住 → 拿起 → 右转 → 放下 → 左转回看",
+      "videos": [
+        {
+          "id": "v7add77a862c1fbb2a4ba",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v7add77a862c1fbb2a4ba.mp4",
+          "webm": "media/v7add77a862c1fbb2a4ba.webm"
+        },
+        {
+          "id": "ve172d1833843ff637d1e",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/ve172d1833843ff637d1e.mp4",
+          "webm": "media/ve172d1833843ff637d1e.webm"
+        },
+        {
+          "id": "vec4dea3a28a77da5c1f6",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vec4dea3a28a77da5c1f6.mp4",
+          "webm": "media/vec4dea3a28a77da5c1f6.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 1,
+          "end": 20,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 21,
+          "end": 40,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        },
+        {
+          "start": 41,
+          "end": 60,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 61,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "label": "左转"
+        }
+      ],
+      "balance_order": [
+        "vec4dea3a28a77da5c1f6",
+        "v7add77a862c1fbb2a4ba",
+        "ve172d1833843ff637d1e"
+      ]
+    },
+    {
+      "id": "cd9adfaef2732f22e",
+      "kind": "mixed",
+      "target": "伸手（1–10）→ 抓住（11–20）→ 拿起（21–38）→ 左转（39–58）→ 放下（59–74）→ 反向转向（75–80）",
+      "videos": [
+        {
+          "id": "v17c24c5a7196c98a1841",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v17c24c5a7196c98a1841.mp4",
+          "webm": "media/v17c24c5a7196c98a1841.webm"
+        },
+        {
+          "id": "v4b3a78f1a72875b66a7f",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/v4b3a78f1a72875b66a7f.mp4",
+          "webm": "media/v4b3a78f1a72875b66a7f.webm"
+        },
+        {
+          "id": "vf967efee7e040a6d18f8",
+          "fps": 15.0,
+          "frames": 81,
+          "url": "media/vf967efee7e040a6d18f8.mp4",
+          "webm": "media/vf967efee7e040a6d18f8.webm"
+        }
+      ],
+      "control_segments": [
+        {
+          "start": 1,
+          "end": 38,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 39,
+          "end": 58,
+          "control": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "label": "左转"
+        },
+        {
+          "start": 59,
+          "end": 74,
+          "control": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "label": "无运动指令"
+        },
+        {
+          "start": 75,
+          "end": 80,
+          "control": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "label": "右转"
+        }
+      ],
+      "balance_order": [
+        "v17c24c5a7196c98a1841",
+        "vf967efee7e040a6d18f8",
+        "v4b3a78f1a72875b66a7f"
+      ]
+    }
+  ]
+}

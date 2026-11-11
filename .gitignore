@@ -1,0 +1,5 @@
+video_ratings_*.json
+my_video_ratings.json
+private/
+*.sqlite3
+.DS_Store
