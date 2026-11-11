@@ -10,9 +10,11 @@ The site will be available at https://adam-duan.github.io/UserStudy/ after deplo
 
 ## Collecting responses
 
-This deployment has no remote collection endpoint. Participants complete all comparisons, select **导出我的评分**, and send the downloaded JSON file to the study organizer. Do not upload participant response files to this public repository.
+Completed responses are submitted automatically to the HTTPS collector configured in `config.json`. The page shows success only after the server confirms storage. A failed submission can be retried, and JSON export remains available as a backup. Responses and method mappings are never published in this repository.
 
-To enable automatic collection later, configure `submit_url` in `config.json` with a compatible HTTPS collector. The collector must allow this site's origin and acknowledge durable storage before the page shows submission success.
+Previously completed participants can reopen this URL in the same browser to submit their saved answers. Questionnaire IDs and browser storage keys have not changed.
+
+The current collector uses a persistent SQLite database on the organizer's server through a Cloudflare Quick Tunnel. The server and tunnel must remain running. If the tunnel is recreated, update `config.json` with the new HTTPS endpoint and redeploy; participants keep using the same GitHub Pages URL. This temporary tunnel is not an uptime-guaranteed hosting service.
 
 ## Files
 
